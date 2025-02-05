@@ -1,0 +1,164 @@
+@charset "ISO-8859-1";
+.headline {
+	background-color: #228B22;/* #663399 */
+	margin-top: -10px;
+	margin-left:-50px;
+	margin-right:-50px;
+	align-items:center;
+	padding: 10px 160px;
+	color: white;
+	font-size: 12px;
+	
+}
+.header-middle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin-left: -10px;
+    
+    
+}
+
+.header-middle-left .logo {
+    height: 10px;
+    width:100px;
+    margin-right: 20px;
+    color: #228B22;
+    font-size:30px;
+    font-weight: bold;
+}
+
+.header-middle-center {
+    flex-grow: 1;
+    margin: 0 20px;
+}
+
+.header-middle-center input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.header-middle-right a {
+    margin-left: 20px;
+    color: #333;
+    text-decoration: none;
+}
+
+.header-bottom {
+    background-color: white;
+    padding: 5px 0;
+    margin-right: -10px;
+    margin-left: -10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.header-bottom ul{
+overflow: auto;
+margin: 0;
+padding: 0;
+}
+.header-bottom li{
+list-style: none;
+padding: 0px 16px;
+font: left;
+} 
+.header-bottom a{
+text-decoration: none;
+color: #36454F;
+float:left;
+padding:5px 20px;
+font-size: 16px;
+font-weight: bold;
+}
+
+.header-bottom nav ul li a.sale {
+    color: #e53935;
+}
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+}
+h3 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
+}
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input, form select, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background-color: green;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #228B22;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.product li {
+    display: inline-block;
+    width: 18%;
+    margin: 1%;
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.product ul li img {
+    width: 100%;
+    height: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f4f4f4;
+}
